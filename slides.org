@@ -1,0 +1,263 @@
+#+REVEAL_PLUGINS: (highlight)
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_single_file:t
+#+DATE: 16 février 2019
+#+TITLE: TECHZARA
+
+* Fantaro, ianaro, ny fitaovana fampiasanao
+  # #+ATTR_REVEAL: :frag (appear roll-in)
+** Fikafika madinidinika ho an'ny dev
+** Tsy fampianarana fa fifampizarana
+** Mila mahay mampiana-tena
+*** Sy vonona hianatra foana
+
+* Introduction
+** Présentation
+   Mandrantosoa 'Ndrianiaina
+   
+   aka Tosoa BACCA
+   
+   @elsifaka
+   
+   Lead Developer ao amin'ny Tag-IP
+   
+** Environnement
+   - MAC OS X
+   - LINUX
+   - DOS, UNIX, windows 98
+   
+** Tsy hoe mahay Mi-dev aho
+   #+ATTR_REVEAL: :frag (appear)
+   - Fa mahay mampiasa google sy Stack Overflow fotsiny
+   - Dia mahalala ny voambolana ilaina ahitana ny valiny
+   - Tsy misy zavatra haiko tsianjery
+   
+* Ireo zavatra mila hay
+   #+ATTR_REVEAL: :frag appear
+   Ankoatry ny technique
+   
+** Mamaky teny sy manoratra
+   #+ATTR_REVEAL: :frag (appear)
+   - Tsy misy mandreraka ohatran'ny olona manao fotsiny hoe: "Tsy mandeha"
+   - Kanefa ilay "message d'erreur" efa mazava be
+
+** Culture Générale
+   #+ATTR_REVEAL: :frag (appear)
+   - informatique
+   - Geek
+     - Satria be dia be ny olona manao référence amin'ireny amin'ny projet informatique
+   
+   https://hackernoon.com/
+   https://news.ycombinator.com/
+   https://what-if.xkcd.com/
+   https://xkcd.com/
+
+** Langues
+  - Anglais !!
+  - Communication !!!
+    - Grammaire - Orthographe
+      
+*** Chat
+   - IRC
+   - USENET
+   - Mailing-list
+   - SLACK
+    
+*** Fadio ny mampiasa language SMS
+  
+* Domain, architecture & design
+
+** Fitaovana fotsiny ny technologie
+   Mila mazava tsara aminao ny zavatra tiana atao. Raha tia resaka Foot ohatra dia mora kokoa ny manao logiciel manaraka score.
+   
+   Dia aza adino ny :
+
+   OLONA
+   
+** Bureautique
+   - Traitement de texte
+     - LaTex/Lyx
+   - Tableur
+   - Presentation
+     - Reveal, LaTex BEAM
+   
+** Pensily hazo sy taratasy
+   Ireo no fitaovana miasa indrindra rehefa mi-code
+   
+** Data Structure
+   - list
+   - hash (dictionary)
+   - stack
+   - ...
+     
+** Zarazarao anjakana
+   Atao izay ahamora ny zavatra atao mba ahafan'ny processeur manao azy
+   
+* Languages, Tools, Environment
+  https://github.com/sindresorhus/awesome
+  
+** OS
+   
+   70% des serveurs web sont sous UNIX/Linux
+   
+   https://w3techs.com/technologies/overview/operating_system/all
+   
+   - Il faut savoir travailler avec les outils POSIX
+   
+*** Linux
+    - Linux from Scratch
+    - UBUNTU/DEBIAN
+    - Gentoo
+    - Arch
+    - ...
+      
+*** Mac OS X
+    - BSD (Unix)
+    - Beaucoup de développeurs l'utilisent
+    - It works™
+    - Développement iOS
+
+** Shell
+   BASH, ZSH, FISH
+   
+   https://devhub.io/repos/aharris88-awesome-cli-apps
+   
+** Gestionnaire de fenêtre
+
+   Tiling window manager: https://www.techjunkie.com/tiling-window-managers/
+   
+** Terminal
+   
+   émulateur, multiplexeur
+   
+   https://janssentj.wordpress.com/2018/12/15/pimp-your-terminal/
+   https://en.wikipedia.org/wiki/Guake
+   https://sw.kovidgoyal.net/kitty/
+   https://medium.com/@brindelle/why-should-you-learn-tmux-7a55cfb5668f
+   
+** Text Editor
+   
+   Learn enough text editor to be dangerous
+   
+   https://www.learnenough.com/text-editor-tutorial/vim
+   
+*** Editor war
+    EMACS vs VI
+    
+    https://en.wikipedia.org/wiki/Editor_war
+    
+*** VIm
+    >> `VIVIVI` -> 666
+    
+    http://www.websiterepairguy.com/articles/vi/12_learn_vi.html
+    
+*** Emacs
+    >> Eight Megabytes And Constantly Swapping
+    
+    >> ESC META ALT CTRL SHIFT
+    
+    http://www.howardism.org/Technical/Emacs/why-emacs.html
+    
+
+*** VSCode
+*** Atom
+*** spacemacs
+    The best editor is neither Emacs nor Vim, it's Emacs and Vim!
+    
+   https://spacemacs.org 
+     
+*** USE and REPEAT and RTFM
+    
+*** QWERTY
+    Satria mora kokoa ny tonga dia mampiasa ny `default keymaps`
+    
+    AZERTY tsy milay rehefa mi-dev
+
+    Misy hafa koa: DVORAK sns
+
+    Ilaina ihany mahay 10 doigts
+    
+** UNIX Philosophy
+*** Write programs that do one thing and do it well.
+*** Write programs to work together.
+*** Write programs to handle text streams, because that is a universal interface.
+    
+** Languages
+*** JUST WRITE CODE
+*** Learn multiple paradigm
+   #+ATTR_REVEAL: :frag (appear)
+     - object-oriented programming
+     - functional programming
+     - reflective programming
+     - etc.
+       
+     Manampy amin'ny fieritreretana
+     
+*** Choose the simplest language
+**** PYTHON
+     Satria be librairie be sady tonga dia misy amin'ny linux rehetra
+     
+*** Think in code
+    SCHEME no language nianarako an'izany (karazana LISP: Lots of Insipid and Silly Parenthesis)
+    
+*** READ OTHERS CODE
+    Manàna compte github, dia mandraisa anjara amin'ny Open Source
+    - Documentation
+    - Tests
+   
+*** REGEX
+    #+NAME: Regex MALAGASY 
+    #+BEGIN_SRC regex
+    /\b(ah|an|ar|eh|e|i|oh|ô|ao|ae|a|à|eo|e|ia|ie|io|oa|oe|o|'|((ai|ae|ao|a|à|ei|eo|e|ia|iai|ie|io|i|oa|oe|oi|o|')?((b|dr|d|f|g|h|j|k|l|mb|mp|m|ndr|ntr|nts|nd|nj|ng|nk|nt|n|p|r|s|tr|ts|t|v|z)(ai|ae|ao|a|à|ei|eo|e|ia|iai|ie|io|i|oa|oe|oi|o|'))*)(b|dr|d|f|g|h|j|k|l|mb|mp|m|ndr|ntr|nts|nd|nj|ng|nk|nt|n|p|r|s|tr|ts|t|v|z)(((ao|ae|a|à|eo|e|ia|ie|io|oa|oe|o|')-?)|-|'|oy|iay|ey|ay|y|i-))\b/g
+    #+END_SRC
+    
+*** Mianara mamaky sy mankafỳ code
+*** Design Pattern
+    - COMMAND: undo tree
+    - DELEGATION
+    - COMPOSITION
+    - ...
+
+    https://teamtreehouse.com/library/introduction-to-design-patterns
+   
+* Googling is a crucial developer skill.
+  
+  https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html
+  https://support.google.com/websearch/?hl=en#topic=3378866
+  https://duck.co/help/features
+     
+* Zavatra 10 ihany
+** no sarotra amin'ny IT
+*** Cache invalidation
+*** Naming things
+    Name variables so that other developers can understand your code better. This is a skill you need to nurture.
+    
+    https://a-nickels-worth.blogspot.com/2016/04/a-guide-to-naming-variables.html
+    
+
+    
+* HAVE FUN
+** Create your own tools
+**** As learning tool
+*** Don't re-invent the wheel
+** Dia tadidio fa mampahay
+*** Ny mizara
+    
+* Valin'ny fanontaniana
+
+** Rehefa miasa miaraka amin'ny olona
+
+   - Gestionnaire de version -> GIT
+     - git-flow - https://leanpub.com/git-flow/read
+   - Style Guide
+     - https://duckduckgo.com/?q=php+style+guide&t=ffab&atb=v153-5_k&ia=web&iax=qa
+     - https://duckduckgo.com/?q=javascript+style+guide&t=ffab&atb=v153-5_k&ia=web
+     
+   Fa hay tokoa moa io ilaina foana :-)
+  
+* Farany
+
+  Mianara sy mampiasà DOCKER fa mandamina fiainana be io
+  
+  https://duckduckgo.com/?q=docker+for+development&t=ffab&atb=v153-5_k&ia=web
